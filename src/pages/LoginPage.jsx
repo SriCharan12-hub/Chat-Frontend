@@ -146,12 +146,10 @@ const LoginPage = () => {
                         onError={() => {
                           toast.error("Login Failed");
                         }}
-                        useOneTap
                         type="standard"
                         theme="filled_black"
                         size="large"
                         shape="pill"
-                        width="100%"
                       />
                     </div>
 
